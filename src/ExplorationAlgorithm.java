@@ -90,10 +90,10 @@ public class ExplorationAlgorithm extends Mazegen<ExplorationGrid> {
 	private ExplorationCell nearestUnvisited() {
 		ExplorationCell top = this.visitStack.pop();
 
-		while (this.grid.unvisitedAdjacent(top) == null) {
-			if (this.visitStack.empty())
-				return null;
+		if (this.visitStack.empty())
+			return null;
 
+		while (this.grid.unvisitedAdjacent(top) == null) {
 			top = this.visitStack.pop();
 		}
 
