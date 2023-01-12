@@ -9,3 +9,6 @@ This repository implements 2 maze generation algorithms:
 
 Note that they are naive implementations and are not suitable in a production environment.
 
+# License
+
+The full content of this repository is licensed under the MIT license. Do whatever you want with it.
