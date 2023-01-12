@@ -1,6 +1,6 @@
 # Maze generation in Java
 
-This work is a part of the work I did in the [Université de Lille]()'s project. The goal of this project was to create a game where the player could navigate within the maze to find the exit.
+This work is a part of the work I did in the [Université de Lille](https://www.fil.univ-lille.fr/)'s project during scholar year 2021-2022 in L2. The goal of this project was to create a game where the player could navigate within the maze to find the exit.
 
 This repository implements 2 maze generation algorithms:
 
